@@ -9,6 +9,7 @@ public class HelloWorldApplication {
 
     public void run() {
         var greeter = new GreeterService();
+        System.out.println("Hello World");
         logger.info(greeter.greet("World"));
     }
 }
